@@ -1,35 +1,33 @@
 <template>
-  <header>
-    <h1>Olá, como vai você?</h1>
-    <nav>
-      <router-link to="/">Home</router-link> 
-      <router-link to="/works">Trabalhos</router-link>
-      <router-link to="/graduation">Formação</router-link>
-      <router-link to="/stacks">Stacks</router-link>  
-    </nav>
-  </header>
-  <router-view/>
+  <router-view />
 </template>
+<script>
+  import Header from "./components/Header.vue";
+  export default{
+    components: {
+      Header
+    }
 
+  }
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #E5E9F0;
 }
 
-nav {
-  padding: 30px;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+body {
+    background: #434C5E;
+    margin: 0%;
+    border: none;
+    outline: 0;
 }
 </style>
