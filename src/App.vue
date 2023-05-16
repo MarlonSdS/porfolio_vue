@@ -30,4 +30,10 @@ body {
     border: none;
     outline: 0;
 }
+
+.texto-lateral{
+    float: right;
+    position: relative;
+    top: 20px;
+  }
 </style>

@@ -30,7 +30,5 @@ export default {
     display: flex;
     flex-direction: row;
   }
-  .texto-lateral{
-    float: right;
-  }
+
 </style>

@@ -36,7 +36,7 @@
     .imgHolder img{
         width: 100%;
         border-radius: 45%;
-
+        animation: slide-down 0.9s ease-out forwards;
     }
     .imgHolder span{
         background-color: #E5E9F080;
@@ -62,6 +62,17 @@
     }
 
     .contatos a:hover{
-        color: #ECEFF4;
+        color: #88C0D0;
+    }
+
+    @keyframes slide-down {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
     }
 </style>

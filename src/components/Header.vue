@@ -53,7 +53,7 @@ header nav a{
 }
 
 header nav a:hover{
-  color: #E5E9F0;
+  color: #88C0D0;
   transition-delay: .1s;
 }
 @keyframes slide-down {

@@ -14,15 +14,19 @@
 </script>
 <style scoped>
     div{
-        height: 70vh;
+        height: 82vh;
         max-width: 50%;
         margin-top: 2%;
         font-size: 20px;
         text-align: start;
-        background: #434C5E80;
+        background: #434C5E99;
+        position: absolute;
+        right: 0px;
+        top: 12%;
     }
 
     div p{
+        color: #ECEFF4;
         padding: 10% 5%;
         opacity: 0;
         animation: slide-down 1s ease-out forwards;
