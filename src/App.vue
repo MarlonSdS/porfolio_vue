@@ -29,6 +29,7 @@ body {
     margin: 0%;
     border: none;
     outline: 0;
+
 }
 
 .texto-lateral{

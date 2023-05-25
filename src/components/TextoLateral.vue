@@ -14,18 +14,17 @@
 </script>
 <style scoped>
     div{
-        height: 82vh;
-        max-width: 50%;
-        margin-top: 2%;
+        max-width: 40%;
         font-size: 20px;
         text-align: start;
         background: #434C5E99;
-        position: absolute;
-        right: 0px;
-        top: 12%;
+        position: relative;
+        top: -120%;
+        right: -60%;
     }
 
     div p{
+        height: 90vh;
         color: #ECEFF4;
         padding: 10% 5%;
         opacity: 0;
@@ -42,4 +41,20 @@
             transform: translateY(0px);
             }
         }
+
+    @media (max-width: 768px){
+
+        div{
+            max-width: 100%;
+            top: auto;
+            right: auto;
+            text-align: justify;
+            margin-top: -15%;
+        }
+
+        div p{
+            width: 95vw;
+            padding: 1% 2%;
+        }
+    }
 </style>

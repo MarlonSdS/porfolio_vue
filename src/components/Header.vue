@@ -7,9 +7,7 @@
       <router-link to="/graduation">Formação</router-link>
       <router-link to="/stacks">Stacks</router-link>  
     </nav>
-    <!--<Menu>
-      item
-    </Menu>-->
+    <Menu />
   </header>
 </template>
 
@@ -70,6 +68,8 @@ header nav a:hover{
 @media (max-width: 900px) {
   header{
     font-size: 1rem;
+    padding-left: 2vw;
+    height: 7vh;
   }
 
   header nav{

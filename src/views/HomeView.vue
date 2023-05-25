@@ -25,10 +25,41 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
+
+
   .home{
+    height: 80vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    overflow: hidden;
   }
+
+  .texto-lateral{
+    max-width: 45% !important;
+    max-height: 50vh !important;
+    right: -45% !important;
+    top: -100% !important;
+  }
+
+  .texto-lateral p{ 
+    max-height: 50vh !important;
+  }
+
+  @media (max-width: 768px){
+        .home{
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          overflow: auto;
+        }
+        .texto-lateral{
+            top: 0% !important;
+            right: 0% !important;
+            margin-top: auto !important;
+            padding: 1% 1.5%;
+        }
+
+    }
 
 </style>

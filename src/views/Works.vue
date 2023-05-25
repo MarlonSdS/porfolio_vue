@@ -13,6 +13,7 @@
         class="texto-lateral"/>
     </div>
 
+
 </template>
 
 <script>
@@ -32,5 +33,12 @@ import LandImage from '@/components/LandImage.vue'
 <style scoped>
     .works{
         height: 70vh;
+        margin-bottom: 10%;
+        display: flex;
+        flex-direction: column;
         }
+
+    @media (max-width: 768px){
+
+    }
 </style>

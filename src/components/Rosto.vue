@@ -11,7 +11,7 @@
             <a href="mailto:marlonfms2012@gmail.com" target="_blank">E-mail: marlonfms2012@gmail.com</a>
             <a href="https://api.whatsapp.com/send?phone=5588996469864" target="_blank">Whatsapp: (88) 99646-9864</a>
             <a href="https://www.linkedin.com/in/marlon-dos-santos-17469417b/" target="_blank">Linkedin</a>
-            <a href="https://github.com/MarlonSdS">Github</a>
+            <a href="https://github.com/MarlonSdS" target="_blank">Github</a>
         </div>
     </div>
 </template>
@@ -74,5 +74,35 @@
         opacity: 1;
         transform: translateY(0px);
     }
+    }
+
+    @media (max-width: 768px){
+        div{
+            width: 100%;
+        }
+
+        .imgHolder{
+            width: 70%;
+        }
+
+        .imgHolder span{
+            position: relative;
+            width: 100%;
+            height: auto;
+            padding-bottom: 2%;
+            margin-top: -15%;
+        }
+
+        .contatos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .contatos a{
+            margin: auto;
+            padding: 0 10%;
+            margin-top: 1vh;
+        }
     }
 </style>
