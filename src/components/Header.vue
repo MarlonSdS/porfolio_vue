@@ -7,7 +7,7 @@
       <router-link to="/graduation">Formação</router-link>
       <router-link to="/stacks">Stacks</router-link>  
     </nav>
-    <Menu />
+    <Menu class="menu" style="visibility: hidden"/>
   </header>
 </template>
 
@@ -36,6 +36,10 @@ header{
     justify-content: space-between;
     align-items: center;
 
+}
+nav{
+  position: absolute;
+  right: 0;
 }
 
 header h1{
@@ -69,11 +73,15 @@ header nav a:hover{
   header{
     font-size: 1rem;
     padding-left: 2vw;
-    height: 7vh;
+    height: auto;
   }
 
   header nav{
     display: none;
+  }
+
+  .menu{
+    visibility: visible !important;
   }
 }
 

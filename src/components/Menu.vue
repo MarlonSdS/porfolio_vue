@@ -1,7 +1,12 @@
 <template>
   <div class="menu" >
-    <button @click="changeMenu" >Menu</button>
+    <button @click="changeMenu" >
+      <fa icon="bars" />
+    </button>
       <ul class="menu-list" v-show="showMenu">
+        <button @click="changeMenu" class="clickedButton">
+          <fa icon="times" />
+        </button>
         <router-link to="/">Home</router-link> 
         <router-link to="/works">Trabalhos</router-link>
         <router-link to="/graduation">Formação</router-link>
@@ -31,6 +36,25 @@ export default {
 </script>
 
 <style scoped>
+
+  .menu button{
+    height: 8vh;
+    width: 5vh;
+    background: none;
+    border: none;
+    margin: auto;
+  }
+
+  .menu button svg{
+    color: #E5E9F0;
+    font-size: 3rem;
+  }
+
+  .clickedButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
   .menu-list{
     background-color: #8FBCBB;
     height: 50vh;
