@@ -17,18 +17,40 @@
 
 <style scoped>
     .card{
-        width: 30%;
-        padding: 1%;
+        width: 20%;
+        height: 80vh;
+        padding: 1% 2%;
         margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: stretch;
     }
 
     .card img{
-        width: 80%;
+        width: 60%;
+        
+    }
+
+    .card p{
+        margin: auto;
+        font-size: 1.5rem;
+        text-align: justify;
     }
 
     @media (max-width: 768px) {
         .card{
-            width: 45%;
+            width: 90%;
+            display: inline-block;
+            margin-top: 10%;
+            height: auto;
         }
+
+        .card img{
+            width: 40%;
+            float: left;
+            margin-right: 2%;
+        }
+
     }
 </style>

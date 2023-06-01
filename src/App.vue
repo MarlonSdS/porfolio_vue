@@ -9,6 +9,7 @@
     }
 
   }
+  document.title = "Portfólio — Marlon dos Santos"
 </script>
 <style>
 #app {
@@ -29,7 +30,8 @@ body {
     margin: 0%;
     border: none;
     outline: 0;
-
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .texto-lateral{
@@ -37,4 +39,5 @@ body {
     position: relative;
     top: 20px;
   }
+
 </style>

@@ -28,14 +28,15 @@
 header{
     color: #E5E9F0;
     background: linear-gradient(#3B4252, #434C5E);
-    font-size: 1.6rem;
-    height: 12vh;
-    padding-left: 10vw;
+    font-size: 1.4rem;
+    height: 13vh;
+    padding-left: 5vw;
+    padding-top: 1vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    max-width: 100vw;
 }
 nav{
   position: absolute;
@@ -43,6 +44,9 @@ nav{
 }
 
 header h1{
+  text-align: start;
+  justify-content: center;
+  max-width: 70%;
   opacity: 0;
   animation: slide-down 0.8s ease-out forwards;
 }
